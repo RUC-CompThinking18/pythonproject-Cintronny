@@ -16,4 +16,4 @@ def popularNouns(sequence):
         int(word.count([nouns for x in sequence if nouns > 3]))
     return nouns
 
-popularNouns(The The The The The)
+popularNouns("The The The The The buy buy")
