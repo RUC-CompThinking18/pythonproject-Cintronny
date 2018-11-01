@@ -10,4 +10,4 @@ seperate = research.words
 
 research.word_counts
 #count how many times the word is repeated in the phrase
-print seperate and research.word_counts
+print research.word_counts
