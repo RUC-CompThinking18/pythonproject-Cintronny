@@ -13,7 +13,7 @@ seperate = research.words
 def popularNouns(sequence):
     nouns = ()
     for elements in sequence:
-        int(word.count([nouns for x in sequence if nouns > 3]))
+        int(nouns.word.counts([nouns for x in sequence if nouns > 3]))
     return nouns
 
 popularNouns("The The The The The buy buy")
