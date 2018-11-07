@@ -1,0 +1,5 @@
+You have the basic pattern down for what you want to be doing here, and I can see, I think, where this would fit into the larger scope of your project. However, recall that the assignment asks for a full introductory comment on the function you choose to write that explains not just what it does and why and where it fits into the larger scheme of your project. Remember that this project (and especially this first code review) isn't just about writing code but about documenting that code and the thinking behind it. As it stands, without comments, it's hard for me to guide you toward how to proceed, since I'm not totally sure what your intentions were in writing this code.
+
+Stray concerns:
+That for loop doesn't seem to be doing what it's supposed to at first glance. "nouns" is going to be an empty tuple, so it's not going to have a "word" method on it.
+TextBlob is not being used in your popularNouns function. This means that you don't have access to things like the tags property. Let's discuss what your intention is for the argument in that function.
