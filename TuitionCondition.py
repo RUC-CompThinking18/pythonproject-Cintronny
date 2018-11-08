@@ -3,7 +3,7 @@ from textblob import TextBlob
 import random
 
 
-research = TextBlob("The the the cause you you you and and and we we we college ")
+research = TextBlob("The the the cause you you you and and and we we we college run throw pay pay pay")
 
 research.tags
 
@@ -24,4 +24,4 @@ seperate = research.words
 
 research.word_counts
 #count how many times the word is repeated in the phrase
-print seperate and research.word_counts
+print seperate and research.word_counts and nouns and verbs
