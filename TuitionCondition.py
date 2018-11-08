@@ -12,7 +12,7 @@ research.tags
 nouns = []
 verbs = []
 #create empty list for tagged words to be sent
-for tag in tags:
+for tag in research:
     if tag == "NN":
         nouns.push
     elif tag == "VB":
