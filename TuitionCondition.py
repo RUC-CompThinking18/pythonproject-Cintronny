@@ -13,9 +13,9 @@ nouns = []
 verbs = []
 #create empty list for tagged words to be sent
 for tag in research:
-    if tag == "NN":
+    if tag[1] == "NN":
         nouns.push
-    elif tag == "VB":
+    elif tag[1] == "VB":
         verbs.push
 
 
@@ -24,4 +24,4 @@ seperate = research.words
 
 research.word_counts
 #count how many times the word is repeated in the phrase
-print seperate and research.word_counts and nouns and verbs
+print seperate research.word_counts nouns verbs
