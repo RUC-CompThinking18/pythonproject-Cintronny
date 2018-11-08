@@ -3,10 +3,9 @@ from textblob import TextBlob
 import random
 
 
-research = TextBlob("The the the cause you you you and and and we we we college run throw pay pay pay")
+research = TextBlob("The the the cause you you you and and and we we we college run throw pay pay pay school money income aide")
 
 research.tags
-
 
 #tag each word with the type of word it is(noun, verb, etc.)
 nouns = []
