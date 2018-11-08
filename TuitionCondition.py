@@ -16,7 +16,7 @@ for tag in tags:
     if tag == "NN":
         nouns.push
     elif tag == "VB":
-        verbs.push tag
+        verbs.push
 
 
 seperate = research.words
