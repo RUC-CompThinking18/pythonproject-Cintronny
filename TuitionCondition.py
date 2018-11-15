@@ -8,7 +8,7 @@ research = TextBlob("The the the cause you you you and and and we we we college 
 research.pos_tags
 nouns = []
 verbs = []
-for tags in research.pos_tags:
+for tag in research.pos_tags:
     if tag[1] == NN:
         nouns.push
     elif tag[1] == VB:
