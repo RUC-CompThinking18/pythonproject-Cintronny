@@ -19,6 +19,9 @@ adnum_two = random.randrange(0,3)
 #the randrange function allows the code to select a random word from each list.
 first_half = (adj[adnum] + ' ' + nouns[num] + ' ' + verbs[vernum])
 second_half = (adj[adnum_two] + ' ' + nouns[num_two])
-def create_tweet = (first_half + ' ' + second_half)
-print create_tweet
+
+def create_tweet():
+    print(first_half + ' ' + second_half)
+
+create_tweet()
 #this is my Code Review 2
