@@ -8,9 +8,9 @@ nouns = ("tuition", "students", "college", "fees", "university", "semester", "sc
 verbs = ("pay", "will", "make", "fighting", "helps", "can", "access", "attending", "don't", "gonna", "learn")
 adj = ("free", "many", "new")
 
-num = random.choice(0,9)
-vernum = random.choice(0,11)
-adnum = random.choice(0,3)
+num = random.choice(nouns)
+vernum = random.choice(verbs)
+adnum = random.choice(adj)
 
 first_half = (adj[adnum] + ' ' + nouns[num] + ' ' + verbs[vernum])
 second_half = (adj[adnum] + ' ' + nouns[num])
