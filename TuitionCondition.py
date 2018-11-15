@@ -10,6 +10,4 @@ nouns = []
 verbs = []
 for tag in research.pos_tags:
     if tag[1] == "NN":
-        nouns.push
-    elif tag[1] == "VB":
-        verbs.push
+        nouns.apend(tag)
