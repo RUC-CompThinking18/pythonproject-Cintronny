@@ -17,3 +17,5 @@ adnum_two = random.randrange(0,3)
 first_half = (adj[adnum] + ' ' + nouns[num] + ' ' + verbs[vernum])
 second_half = (adj[adnum_two] + ' ' + nouns[num_two])
 print first_half + ' ' + second_half
+
+#this is my Code Review 2
