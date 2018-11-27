@@ -27,10 +27,10 @@ def create_quote():
     first_half = (prepnum + ' ' + adnum + ' ' + num + ' ' + vernum)
     second_half = (adnum_two + ' ' + num_two)
     print('"' + first_half + ' ' + second_half + '"')
-#I want this function to run every 15 seconds
-
+#To make the generated sentence appear better, I added a small joke to give it a better effect.
 quote = "Here is another quote from an incredibly stressed college student."
 
+#I want this function to run every 15 seconds, this is to simulate the function posting to twitter throughout the day.
 while True:
     print quote
     create_quote()
